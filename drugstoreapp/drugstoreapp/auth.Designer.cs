@@ -28,19 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.sign_in_btn = new System.Windows.Forms.Button();
             this.exitbtn = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.passwdtbox = new System.Windows.Forms.TextBox();
+            this.logintbox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(35, 12);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 0;
             // 
             // sign_in_btn
             // 
@@ -65,12 +57,19 @@
             this.exitbtn.UseVisualStyleBackColor = true;
             this.exitbtn.Click += new System.EventHandler(this.exitbtn_Click);
             // 
-            // textBox1
+            // passwdtbox
             // 
-            this.textBox1.Location = new System.Drawing.Point(47, 39);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 3;
+            this.passwdtbox.Location = new System.Drawing.Point(47, 39);
+            this.passwdtbox.Name = "passwdtbox";
+            this.passwdtbox.Size = new System.Drawing.Size(100, 20);
+            this.passwdtbox.TabIndex = 3;
+            // 
+            // logintbox
+            // 
+            this.logintbox.Location = new System.Drawing.Point(47, 12);
+            this.logintbox.Name = "logintbox";
+            this.logintbox.Size = new System.Drawing.Size(100, 20);
+            this.logintbox.TabIndex = 4;
             // 
             // auth
             // 
@@ -80,10 +79,10 @@
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.CancelButton = this.exitbtn;
             this.ClientSize = new System.Drawing.Size(192, 102);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.logintbox);
+            this.Controls.Add(this.passwdtbox);
             this.Controls.Add(this.exitbtn);
             this.Controls.Add(this.sign_in_btn);
-            this.Controls.Add(this.comboBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "auth";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -94,10 +93,9 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button sign_in_btn;
         private System.Windows.Forms.Button exitbtn;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox passwdtbox;
+        private System.Windows.Forms.TextBox logintbox;
     }
 }
