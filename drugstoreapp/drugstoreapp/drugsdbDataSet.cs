@@ -2,9 +2,11 @@
 {
 }
 
-namespace drugstoreapp {
-    
-    
-    public partial class drugsdbDataSet {
+namespace drugstoreapp
+{
+
+
+    public partial class drugsdbDataSet
+    {
     }
 }

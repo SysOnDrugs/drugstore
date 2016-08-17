@@ -16,5 +16,10 @@ namespace drugstoreapp
         {
             InitializeComponent();
         }
+
+        private void sign_in_btn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
