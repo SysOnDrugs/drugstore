@@ -21,5 +21,10 @@ namespace drugstoreapp
         {
 
         }
+
+        private void exitbtn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

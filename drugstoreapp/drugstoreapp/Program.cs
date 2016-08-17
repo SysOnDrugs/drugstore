@@ -16,7 +16,17 @@ namespace drugstoreapp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Form1 headband = new Form1();
+            DateTime end = DateTime.Now + TimeSpan.FromSeconds(2);
+            headband.Show();
+            while (end > DateTime.Now)
+            {
+                Application.DoEvents();
+            }
+            headband.Close();
+            headband.Dispose();
+
+            Application.Run(new auth());
         }
     }
 }
