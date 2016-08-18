@@ -83,6 +83,9 @@
     <EmbeddedResource Include="auth.resx">
       <DependentUpon>auth.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="dealer.resx">
+      <DependentUpon>dealer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -96,6 +99,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="storekeeper.resx">
+      <DependentUpon>storekeeper.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="drugsdbDataSet.xsc">
       <DependentUpon>drugsdbDataSet.xsd</DependentUpon>
     </None>
